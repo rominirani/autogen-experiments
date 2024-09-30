@@ -1,6 +1,6 @@
-Experiments with Autogen Framework (https://github.com/microsoft/autogen)
+Experiments with Microsoft's [Autogen Framework](https://github.com/microsoft/autogen). 
 
-The intention is to configure Google Gemini models to work with Autogen.
+The intention is to configure [Google Gemini models](https://ai.google.dev/gemini-api/docs/models/gemini) to work with Autogen.
 
 List of programs:
 - `main.py` : A starter template to configure 2 Agents with one asking a question/prompt of the other.
