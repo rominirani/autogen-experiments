@@ -18,7 +18,8 @@ writer = AssistantAgent(
 reviewer = AssistantAgent(
     "assistant", 
     system_message="You are an expert reviewer of Call for Proposals. You will keep reviewing the CFP for improving it. Please suggest changes to be made in a bulleted list. If there are no changes, you can mention that.",
-    llm_config={"config_list": config_list_gemini, "seed": seed}, max_consecutive_auto_reply=3
+    llm_config={"config_list": config_list_gemini, "seed": seed}, 
+    max_consecutive_auto_reply=3
 )
 
 writer.initiate_chat(
