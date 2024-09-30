@@ -4,9 +4,6 @@ import autogen
 
 config_list_gemini = autogen.config_list_from_json(
     "OAI_CONFIG_LIST.json",
-    filter_dict={
-        "model": ["gemini-pro"],
-    },
 )
 
 seed = 25  # for caching
