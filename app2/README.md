@@ -39,5 +39,5 @@ If there are no significant changes, please mention "looks good" at the end of t
   $ source .venv/bin/activate
   $ pip install -r requirements.txt
   ```
-- Run any of the programs at the command line for e.g. `$ python multi-agent-interaction.py`
+- Run the program at the command line for e.g. `$ python multi-agent-interaction.py`
 
