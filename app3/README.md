@@ -11,8 +11,10 @@ You will need to provide your Gemini AI API Key in the `model_config.json` folde
 The scenario is as follows:
 - The Human Agent initiates a conversation with the Autonomous Agent (that is skilled at generating Quotes) and asks it to generate quote
 - The Autonomous Agent replies back with a Quote
-- The Human Agent (you) will now have to decide if you want to terminate the conversation, do an auto-reply (generate another quote) or mention ok
+- The Human Agent (you) will now have to decide if you want to terminate the conversation, do an auto-reply (generate another quote) or mention `ok`.
+- The Autonomous Agent is configured with its `is_termination_msg` as sent to looking out for ok from the Human Agent. If that happens the conversation can terminate too.
 
+You can consider this flow as a good way by which you can decide to hand over a task to one of the Agents and then review the result of that task. If not satisfactory, you can ask the Agent to do it again or provide your feedback accordingly and continue the conversation. 
   
 # Run the Applications
 - Setup a Python environment via the `requirements.txt` file that is provided.
