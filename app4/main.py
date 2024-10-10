@@ -1,10 +1,7 @@
 from autogen import ConversableAgent
 import autogen
 
-# Configure Gemini models
-# config_list_gemini = autogen.config_list_from_json("model_config.json")
-
-config_list_gemini = [
+config_list_local_llm = [
     {
     "model": "gemma",
     "base_url": "http://localhost:11434/v1",
@@ -22,7 +19,7 @@ human = ConversableAgent(
 quote_agent = ConversableAgent(
     name="quote_agent",
     system_message="You are an expert at providing quotes on life.",
-    llm_config={"config_list": config_list_gemini},
+    llm_config={"config_list": config_list_local_llm},
     is_termination_msg=lambda msg: "ok" in msg["content"],  # terminate if the human responds ok
     human_input_mode="NEVER",  # never ask for human input
 )
