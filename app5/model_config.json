@@ -1,0 +1,13 @@
+[
+     {
+          "model": "gemini-1.5-flash",
+          "api_key": "<Your Google Gemini API Key>",
+          "api_type": "google"
+     },
+     {
+          "model": "gemini-1.5-pro",
+          "api_key": "<Your Google Gemini API Key>",
+          "api_type": "google"
+     }
+ ]
+ 
