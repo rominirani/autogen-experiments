@@ -7,7 +7,7 @@ You will need to provide your Gemini AI API Key in the `model_config.json` folde
 
 # Application
 - `multi-agent-101.py` : This program demonstrates how you can configure two autonomous agents : `quote_writer` and `quote_reader`.
-- 
+
 The scenario is as follows:
 - The Quote Writer is used to first get a specific quote on life. 
 - The Quote Writer then initiates the conversation with the Quote Reviewer.
