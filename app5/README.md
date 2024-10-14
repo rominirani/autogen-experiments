@@ -14,7 +14,7 @@ The scenario is as follows:
 - The conversation continues for a maximum of two turns.
 - We initialize the AgentOps module with the API Key from AgentOps.ai and a tag. This intiatites the metrics getting collected and funelled off to AgentOps.ai, where you can then view the metrics, drill down into a session , see the interaction between agents and more. 
     
-# Run the Applications
+# Run the Application
 - Setup a Python environment via the `requirements.txt` file that is provided.
   ```
   $ python3 -m venv .venv
