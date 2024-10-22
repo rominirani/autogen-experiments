@@ -12,7 +12,10 @@ The scenario is as follows:
 - The Quote Writer is used to first get a specific quote on life. 
 - The Quote Writer then initiates the conversation with the Quote Reviewer.
 - The conversation continues for a maximum of two turns.
-- We initialize the AgentOps module with the API Key from AgentOps.ai and a tag. This intiatites the metrics getting collected and funelled off to AgentOps.ai, where you can then view the metrics, drill down into a session , see the interaction between agents and more. 
+- We initialize the AgentOps module with the API Key from AgentOps.ai and a tag. This intiatites the metrics getting collected and funelled off to AgentOps.ai, where you can then view the metrics, drill down into a session , see the interaction between agents and more.
+
+# Blog Post
+Refer to the following article for a detailed analysis : https://iromin.medium.com/tutorial-multi-agent-interactions-with-autogen-and-gemini-part-5-agentops-a70912486c13
     
 # Run the Application
 - Setup a Python environment via the `requirements.txt` file that is provided.
