@@ -32,6 +32,9 @@ If there are no significant changes, please mention "looks good" at the end of t
 """
 ```
 
+# Blog Post
+Refer to the blog post over here for a detailed analysis: https://iromin.medium.com/multi-agent-interactions-with-autogen-and-gemini-part-2-terminating-conversations-883788137162
+
 # Run the Applications
 - Setup a Python environment via the `requirements.txt` file that is provided.
   ```
