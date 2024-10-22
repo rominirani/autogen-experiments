@@ -15,6 +15,9 @@ The scenario is as follows:
 - The Autonomous Agent is configured with its `is_termination_msg` as sent to looking out for ok from the Human Agent. If that happens the conversation can terminate too.
 
 You can consider this flow as a good way by which you can decide to hand over a task to one of the Agents and then review the result of that task. If not satisfactory, you can ask the Agent to do it again or provide your feedback accordingly and continue the conversation. 
+
+# Blog Post
+Refer to the following blog post for a detailed analysis : https://iromin.medium.com/tutorial-multi-agent-interactions-with-autogen-and-gemini-part-3-introducing-manual-human-8674fe02b7d9
   
 # Run the Applications
 - Setup a Python environment via the `requirements.txt` file that is provided.
