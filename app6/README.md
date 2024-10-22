@@ -15,6 +15,7 @@ print(result.chat_history)
 print(result.cost)
 ```
 
+# Blog Post
 Refer to the blog post over here for a detailed analysis: https://medium.com/google-cloud/tutorial-multi-agent-interactions-with-autogen-and-gemini-part-6-history-summarization-and-3212431ff13d
   
 # Run the Applications
