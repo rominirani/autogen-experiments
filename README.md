@@ -1,5 +1,10 @@
 Experiments demonstrating [Autogen](https://github.com/microsoft/autogen) framework. 
 
+> AutoGen is an open-source programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks. AutoGen aims to provide an easy-to-use and flexible framework for accelerating development and research on agentic AI, like PyTorch for Deep Learning.
+> It offers features such as agents that can converse with other agents, LLM and tool use support, autonomous and human-in-the-loop workflows, and multi-agent conversation patterns.
+
+![Autogen Framework](https://microsoft.github.io/autogen/0.2/assets/images/autogen_agentchat-250ca64b77b87e70d34766a080bf6ba8.png)
+
 | Folder Name    | Application  | Blog Post  |
 | -------------- | ------------ | ---------- |
 | [`app1`](app1) | Multi-turn conversation between 2 agents, CFP Writer and CFP Reviewer that converse with each other to improve a CFP. Their conversation lasts the number of `max_turns` mentioned while setting up i.e. initiating the chat.| [Multi-Agent Tutorial Series - Part 1](https://medium.com/google-cloud/multi-agent-interactions-using-autogen-with-gemini-a416008e5df6) |
